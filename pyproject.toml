@@ -1,0 +1,11 @@
+[project]
+name = "employee-api-v6"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "asyncpg>=0.32.0",
+    "fastapi>=0.162.0",
+    "greenlet>=3.5.6",
+    "sqlalchemy>=2.1.6",
+    "uvicorn>=0.54.0",
+]
